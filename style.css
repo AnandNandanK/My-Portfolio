@@ -702,9 +702,9 @@ box-shadow: none;
     font-size: 1.5rem;
   }
   
-  form{
+  /* form{
     width: 70%;
-  }
+  } */
 
   .form-heading{
     text-align: center;
@@ -788,6 +788,16 @@ box-shadow: none;
     width: 100%;
     line-height: 30px;
   }
+
+  .skill-container-left h2{
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .skill-container-left h2 span{
+    font-size: 3rem;
+  }
+
   .skill-container-right{
     width: 100%;
   }
