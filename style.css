@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .wrapper{
     width: 100vw;
@@ -168,7 +169,7 @@ a{
     position: relative;
     display: flex;
     height: 391px;
-    width: 346px;
+    width: 318px;
     /* z-index: -1; */
 }
 
@@ -466,7 +467,7 @@ a{
 }
 
 .skills-info{
-  font-size: large;
+  font-size:medium;
 }
 
 .project-content-left{  
@@ -564,7 +565,7 @@ box-shadow: none;
 }
 
 .skills-logo{
-  width:90px;
+  width:70px;
   transition:all 0.5s;
 }
 
@@ -603,6 +604,17 @@ box-shadow: none;
   .contactform{
     width: 100%;
   }
+
+
+  .container-nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -610,23 +622,24 @@ box-shadow: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
   }
   
-  .container h2 {
+  #contactme h2 {
     font-size: 5em;
     padding-top: 2rem;
     color: #e84949;
   }
   
-  .container h3 {
+  #contactme h3 {
+    
     font-size: 3em;
     color: #343d68aa;
+    max-width: 1200px;
   }
   
   .contactUsForm {
     display: flex;
-    width: 80%;
+    width: 95%;
     margin-top: 25px;
     justify-content: center;
     align-items: center;
@@ -859,12 +872,13 @@ box-shadow: none;
 
 
   .hero-section{
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 750px;
       gap: 0;
-      margin: 0%;
+      margin: 10%;
   }
 
   .project-section{
@@ -873,12 +887,14 @@ box-shadow: none;
   }
   .hero-section-left{
       margin-top: 3rem;
+      margin-bottom: 3rem;
       align-items: center;
       justify-content: center;
   }
 
   .hero-section-right{
       margin-top: 2rem;
+      padding: 0 5px;
       margin: 0 0 ;
 
   }
@@ -916,9 +932,20 @@ box-shadow: none;
   }
 
   .contactUsForm{
-    width: 70%;
+    width: 95%;
   }
 
+  #contactme h2{
+    font-size: 3rem;
+  }
+
+  #contactme h3{
+    font-size: 1.5rem;
+    margin: 0 10px;
+    padding: 0 10px;
+    width:80%;
+  }
+  
   .formFieldContainer{
     width: 90%;
   }
