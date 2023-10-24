@@ -179,7 +179,7 @@ a{
 }
 
 .user-img{
-    padding:2rem;
+    /* padding:2rem; */
     filter: grayscale(1);
     transition:all 1s;
 
