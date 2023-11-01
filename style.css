@@ -277,7 +277,7 @@ a{
        
     }
     50%{
-        transform: translatey(10px)
+        transform: translatey(50px)
     }
     100%{
         transform: translate(5px);
@@ -372,7 +372,7 @@ a{
 #project3{
    
     /* object-fit: cover; */
-    background-image: url(./projects/Project3.png);
+    background-image: url(./projects/Project5.png);
     background-size: cover;
 
 }
