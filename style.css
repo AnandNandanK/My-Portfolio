@@ -383,6 +383,7 @@ a{
     /* object-fit: cover; */
     background-image: url(./projects/project6.png);
     background-size: cover;
+    margin-left: 120px;
 
 }
 
