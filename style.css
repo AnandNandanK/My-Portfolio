@@ -386,6 +386,14 @@ a{
 
 }
 
+#project5{
+   
+    /* object-fit: cover; */
+    background-image: url(./projects/project7.png);
+    background-size: cover;
+
+}
+
 .project-card{
     position: relative;
     box-shadow: 0px 3px 40px black;   
