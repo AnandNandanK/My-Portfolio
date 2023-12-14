@@ -422,6 +422,15 @@ a{
 
 }
 
+#project9{
+   
+    /* object-fit: cover; */
+    background-image: url(./projects/Project11.png);
+    background-size: cover;
+    /* margin-left: 120px; */
+
+}
+
 .project-card{
     position: relative;
     box-shadow: 0px 3px 40px black;   
