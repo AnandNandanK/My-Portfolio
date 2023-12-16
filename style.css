@@ -431,6 +431,15 @@ a{
 
 }
 
+#project10{
+   
+    /* object-fit: cover; */
+    background-image: url(./projects/Project12.png);
+    background-size: cover;
+    margin-left: 120px;
+
+}
+
 .project-card{
     position: relative;
     box-shadow: 0px 3px 40px black;   
@@ -929,6 +938,10 @@ box-shadow: none;
   }
 
   #project8 {
+    margin-left: 0;
+  }
+
+  #project10 {
     margin-left: 0;
   }
   .project-skill-container {
