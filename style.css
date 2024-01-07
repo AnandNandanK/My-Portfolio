@@ -530,7 +530,9 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    /* justify-content: center; */
+    justify-content: space-between;
+    
+    justify-content: center;
     /* left: 30; */
 } 
 
@@ -603,10 +605,14 @@ box-shadow: none;
 .skill-container-right{
   display:flex;
   flex-wrap:wrap;
-  width:100%;
+  max-width:100%;
   position:relative;
   gap:2rem;
   justify-content: center;
+  height: auto;
+  
+  
+
 }
 
 .skill-fade-text{
@@ -637,8 +643,9 @@ box-shadow: none;
 }
 
 .skills-logo{
-  width:70px;
+  max-width:70px;
   transition:all 0.5s;
+  max-height: 100px;
 }
 
 .skills-logo:hover{
@@ -871,7 +878,7 @@ box-shadow: none;
   }
 
   .skill-container-right{
-    width: 100%;
+    /* width: 100%; */
   }
 
 .skills-logo{
